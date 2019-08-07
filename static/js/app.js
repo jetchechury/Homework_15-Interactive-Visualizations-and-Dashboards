@@ -47,7 +47,8 @@ function buildCharts(sample) {
     var layout = {
     showlegend: false,
     height: 600,
-    width: 1500
+    width: 700,
+    align: "right"
     };
 
     Plotly.newPlot('bubble', data, layout);
@@ -75,6 +76,8 @@ function buildCharts(sample) {
 
   var layout={
     showlegend:true,
+    height: 450,
+    width: 450
   };
 
   Plotly.newPlot('pie',data,layout);
